@@ -1,5 +1,5 @@
 # dockerfile
-FROM python:3.5
+FROM python:3.6
 
 WORKDIR /usr/src/app
 
@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./stream.py" ]
+CMD [ "python", "./stream.py", "&" ]
