@@ -1,5 +1,7 @@
 # worker-elecciones
 
+This script downloads and transform tweets of potential presidential candidates for 2018.
+
 `docker build -t worker .`
 
 ``
